@@ -12,28 +12,28 @@
 class Packguard < Formula
   desc "Dependency supply-chain scanner: OSV/GHSA + malware/typosquat + policy-driven CI gate"
   homepage "https://github.com/Tmauc/packguard"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT OR Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/Tmauc/packguard/releases/download/v#{version}/packguard-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "3373f47c6cfd8269748cccd254e3195e27a3143559b7b857dab5c5601040202a"
+      sha256 "9611214ee59b55e893b3e00b8c27651f0f40afe0ab41b33a31896d32c5aa49da"
     end
     on_intel do
       url "https://github.com/Tmauc/packguard/releases/download/v#{version}/packguard-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "e4410771f702259a994df900edc5178a305f8074052c373dec7e0ebc8fb531c3"
+      sha256 "6410d4af78b3b2f1aaf079faf3478cf6178671c2e7b261bdd735d551f4530e7a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Tmauc/packguard/releases/download/v#{version}/packguard-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "65a0f9362b22e42e6fc6e32ae88607c396d964ce6f332e8d606af098a7bea10d"
+      sha256 "d400df3e83e316d5eed98f87ca4ae796874496debcc326a509a5871e585c07e9"
     end
     on_intel do
       url "https://github.com/Tmauc/packguard/releases/download/v#{version}/packguard-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "71e7718311c7076b6f6224ee83fa36ee0a2cd10a91024e651bae42876e37d789"
+      sha256 "2be5d3f3c7c121714da6b9dfc258694b8199df30db542f9ef3f2125c2c26d0ef"
     end
   end
 
